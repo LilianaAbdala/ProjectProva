@@ -36,6 +36,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
         
         collectionView.delegate = self
@@ -59,14 +60,14 @@ class HomeViewController: UIViewController {
     
    func receitas(completion: @escaping([Receita]) -> ()) { // -> () indica que tem que inicializar.
         completion([
-            Receita(id: 1, name: "", desc: "", image: ""),
-            Receita(id: 2, name: "", desc: "", image: ""),
-            Receita(id: 3, name: "", desc: "", image: ""),
-            Receita(id: 4, name: "", desc: "", image: ""),
-            Receita(id: 5, name: "", desc: "", image: ""),
-            Receita(id: 6, name: "", desc: "", image: ""),
-            Receita(id: 7, name: "", desc: "", image: ""),
-            Receita(id: 8, name: "", desc: "", image: ""),
+            Receita(id: 1, nome: "", ingre: "", prepa: "", image: ""),
+            Receita(id: 2, nome: "", ingre: "", prepa: "", image: ""),
+            Receita(id: 3, nome: "", ingre: "", prepa: "", image: ""),
+            Receita(id: 4, nome: "", ingre: "", prepa: "", image: ""),
+            Receita(id: 5, nome: "", ingre: "", prepa: "", image: ""),
+            Receita(id: 6, nome: "", ingre: "", prepa: "", image: ""),
+            Receita(id: 7, nome: "", ingre: "", prepa: "", image: ""),
+            Receita(id: 8, nome: "", ingre: "", prepa: "", image: ""),
             
         ])
     }

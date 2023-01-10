@@ -49,7 +49,7 @@ class RegisterViewController: UIViewController {
         name.backgroundColor = .white
         name.layer.cornerRadius = 10
         name.layer.borderWidth = 2
-        name.layer.borderColor = UIColor.black.cgColor
+        name.layer.borderColor = UIColor.white.cgColor
         return name
         }()
     
@@ -69,7 +69,7 @@ class RegisterViewController: UIViewController {
         ingre.backgroundColor = .white
         ingre.layer.cornerRadius = 10
         ingre.layer.borderWidth = 2
-        ingre.layer.borderColor = UIColor.black.cgColor
+        ingre.layer.borderColor = UIColor.white.cgColor
         return ingre
         }()
     
@@ -89,7 +89,7 @@ class RegisterViewController: UIViewController {
         prepa.backgroundColor = .white
         prepa.layer.cornerRadius = 10
         prepa.layer.borderWidth = 2
-        prepa.layer.borderColor = UIColor.black.cgColor
+        prepa.layer.borderColor = UIColor.white.cgColor
         return prepa
         }()
     
